@@ -1,0 +1,53 @@
+.top {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.side-image {
+    display: inline-block;
+    float: left;
+    top: 1em;
+    left: 0;
+    width: 30vw;
+    height: 90vh;
+    margin: 0 2em 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 65%;
+    height: 90%;
+}
+
+.top-text-box {
+    display: block;
+    width: 100%;
+    margin: 11em auto;
+}
+
+.coming-soon {
+    font-family: "Montserrat", sans-serif;
+    font-size: 8em;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--yellow), 0 0 20px var(--yellow), 0 0 25px var(--yellow), 0 0 30px var(--yellow), 0 0 35px var(--yellow);
+    }
+
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 15px var(--lightyellow), 0 0 20px var(--lightyellow), 0 0 25px var(--lightyellow), 0 0 30px var(--lightyellow), 0 0 35px var(--lightyellow), 0 0 40px var(--lightyellow);
+    }
+}
