@@ -1,0 +1,110 @@
+html, body {
+    --lightyellow: #f6e385;
+    --lightblue: #82B5CF;
+    --darkblue: #537179;
+    --darkgrey: #5A5A5A;
+    --yellow: #f4cd0e;
+    background-color: var(--lightblue);
+    text-align: center;
+    font-family: 'Cardo', serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: var(--lightblue);
+}
+
+.nav-link-cust {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.navbar-nav > li{
+  margin: 0.5em;
+}
+
+#button-outside {
+    border-color: white;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--darkblue);
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--lightblue);
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+hr {
+    width: 7%;
+    border-style: dotted none none none;
+    border-width: 0.5em;
+    margin: 3em auto;
+    color: var(--lightblue);
+    opacity: 0.2;
+}
+
+p, a {
+    color: var(--darkgrey);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/*** CLASS SELECTORS ***/
+.initial-contents {
+    height: 100vh;
+    width: 100vw;
+}
+
+@media screen and (max-width: 1025px) {
+    .nomobile {
+        display: none;
+    }
+}
+
+.bottom {
+    height: 10%;
+}
+
+/*** LINK SPECIFICATIONS ***/
+/* mouse over link */
+a:hover {
+    color: var(--yellow);
+}
+
+/* selected link */
+a:active {
+    color: var(--darkblue);
+}
+
+/*** BOTTOM ***/
+
+.copyright {
+    color: white;
+    padding: 2em;
+}
+
+.copyright-home-link {
+    color: white;
+}
